@@ -90,7 +90,6 @@ x86_64-w64-mingw32-gcc -o loader.exe shellcode_stomping_loader.c \
 4. Maps same section into target process using `NtMapViewOfSection`
 5. Executes via `QueueUserAPC`
 
----
 
 ### process_injection.c
 
