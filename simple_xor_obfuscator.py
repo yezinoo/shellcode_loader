@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Simple XOR Obfuscator for Cobalt Strike Beacons
-This version is tested and verified to work
-"""
 
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
