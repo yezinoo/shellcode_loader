@@ -108,7 +108,7 @@ def main():
     print(f"    After AES: (encrypted, unreadable)")
     print(f"    Loader will: AES decrypt → XOR decode → fc 48 83 e4 f0 ...")
     print()
-    print("[+] Done! Use simple_xor_loader.c")
+    print("[+] Done!")
 
 if __name__ == "__main__":
     main()
